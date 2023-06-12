@@ -1,0 +1,29 @@
+.interests{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    overflow: hidden;
+    padding:50px 11vw;
+}
+
+.interests .title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color:#1F203C;
+}
+
+.interests-content .interest-item{
+    padding:10px;
+    background:#CF1414;
+    border-radius: 5px;
+    display: inline-block;
+    color:white;
+    box-shadow: 0 0 2px #00000050;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+}

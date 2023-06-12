@@ -1,0 +1,107 @@
+.about-me{
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    padding:50px 11vw;
+}
+
+
+.about-me .about-me-content .about-me-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#1F203C;
+}
+.about-me .profile .about-me-body{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding:0 0 50px 0;
+}
+.about-me-body strong{
+    font-weight: 600;
+}
+
+
+
+
+.about-me-content .study{
+    margin:0 20px;
+}
+.about-me-content .study-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 40px;
+    height: fit-content;
+}
+.about-me-content .study-content .study-field{
+    line-height: 0px;
+    text-transform: capitalize;
+}
+.about-me-content .study-content .university{
+    color:#000000c0;
+}
+
+.study-date{
+    min-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+.about-me-content .languages{
+    margin:50px 20px;
+}
+
+.languages-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 40px;
+    height: fit-content;
+}
+
+.lang-name{
+    font-size: 20px;
+}
+.lang-level{
+    color:rgb(80, 80, 80);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .about-me-content .study-content{
+        display: block !important;
+        padding:10px 40px;
+    }
+    .study-date{
+        margin: 20px 0 0 0;
+    }
+    .languages-content{
+        display: grid;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .about-me-content .study-content{
+        display: block !important;
+        padding:10px 10px;
+    }
+
+    .languages-content{
+        display: grid;
+    }
+}
