@@ -165,6 +165,17 @@ let projects=[
         link:'https://elieshamout.github.io/Porofolio',
         technologies:['html5','css3','javascript','Bootstrap','Jquery'],
         note:''
+    },
+    {
+        id:12,
+        type:'website',
+        title:'Blog',
+        desc:'An electronic blog that enables users to publish articles or review and evaluate articles, as there are three types of users: manager, publisher, and reader The administrator can view the user accounts and can manage the articles and accept or reject them It also enables the publisher to write a new article, edit an old article, and review his articles The reader can also review and rate the articles.',
+        imageUrl:'blog.png',
+        date:'',
+        link:'https://github.com/ElieShamout/blog',
+        technologies:['html5','css3','javascript','Bootstrap','Jquery','Laravel','mysql','laravel/permissions'],
+        note:''
     }
 ];
 

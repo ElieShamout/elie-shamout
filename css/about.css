@@ -35,19 +35,20 @@
     align-items: center;
     width: 100%;
     padding:0 40px;
-    height: fit-content;
 }
 .about-me-content .study-content .study-field{
-    line-height: 0px;
     text-transform: capitalize;
+    line-height: 0px;
+}
+@media screen and (max-width:600px) {
+    .about-me-content .study-content .study-field{
+        line-height: initial;
+    }
 }
 .about-me-content .study-content .university{
     color:#000000c0;
 }
 
-.study-date{
-    min-width: 300px;
-}
 
 
 
